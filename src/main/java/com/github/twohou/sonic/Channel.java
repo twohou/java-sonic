@@ -88,5 +88,6 @@ public abstract class Channel {
     public void quit() throws IOException {
         this.send("QUIT");
         this.assertPrompt("^ENDED\r\n$");
+        this.socket.close();
     }
 }
