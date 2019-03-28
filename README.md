@@ -2,6 +2,20 @@
 
 [![Build Status](https://travis-ci.com/twohou/java-sonic.svg?branch=master)](https://travis-ci.com/twohou/java-sonic)
 
+Java client library of [Sonic search](https://github.com/valeriansaliou/sonic/)
+
+## Compatibility
+
+Tested under Ubuntu Trusty with:
+
+- oraclejdk8
+- oraclejdk9
+- oraclejdk11
+- openjdk8
+- openjdk9
+- openjdk11
+- openjdk12
+
 ## Install
 
 ### Gradle
@@ -20,7 +34,7 @@ allprojects {
 Step 2. Add the dependency
 ```groovy
 dependencies {
-    implementation 'com.github.twohou:java-sonic:master-SNAPSHOT'
+    implementation 'com.github.twohou:java-sonic:1.0.0'
 }
 ```
 
@@ -43,10 +57,10 @@ Step 2. Add the dependency
 <dependency>
     <groupId>com.github.twohou</groupId>
     <artifactId>java-sonic</artifactId>
-    <version>master-SNAPSHOT</version>
+    <version>1.0.0</version>
 </dependency>
 ```
 
 ## Usage
 
-See [example](./src/test/java/org/github/twohou/sonic/IntegrationTest.java)
+See [example](./src/test/java/com/github/twohou/sonic/IntegrationTest.java)
