@@ -34,7 +34,7 @@ allprojects {
 Step 2. Add the dependency
 ```groovy
 dependencies {
-    implementation 'com.github.twohou:java-sonic:1.0.0'
+    implementation 'com.github.twohou:java-sonic:1.0.1'
 }
 ```
 
@@ -57,7 +57,7 @@ Step 2. Add the dependency
 <dependency>
     <groupId>com.github.twohou</groupId>
     <artifactId>java-sonic</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
 </dependency>
 ```
 
