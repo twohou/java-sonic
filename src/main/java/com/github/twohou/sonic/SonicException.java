@@ -1,4 +1,4 @@
-package org.github.twohou.sonic;
+package com.github.twohou.sonic;
 
 public class SonicException extends RuntimeException {
     public SonicException() {

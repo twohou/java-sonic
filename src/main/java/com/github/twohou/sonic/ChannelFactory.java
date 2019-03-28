@@ -1,4 +1,4 @@
-package org.github.twohou.sonic;
+package com.github.twohou.sonic;
 
 import java.io.IOException;
 
