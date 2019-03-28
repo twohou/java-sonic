@@ -14,8 +14,8 @@ public class IntegrationTest {
         String address = "127.0.0.1";
         Integer port = 1491;
         String password = "passwd";
-        Integer connectionTimeout = 1000;
-        Integer readTimeout = 1000;
+        Integer connectionTimeout = 5000;
+        Integer readTimeout = 5000;
         String collection = "messages";
         String bucket = "default";
 
